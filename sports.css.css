@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+
+    
+}
+.sport {
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+    width: 100%;
+    background-image: url(sports9.jpg);
+    background-size: cover;
+    
+  }
+.sport1 {
+    height:60px;
+    background-color:rgb(220, 149, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; 
+   
+}
+   
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+.border {
+    border: 2px solid transparent;
+}
+.border:hover
+{
+    border: 4px solid whitesmoke;
+    background-color: rgb(37, 37, 96);
+    color: whitesmoke;
+}
+.sport2 {
+   
+    position: relative;
+    top: 120px;
+   left: 65PX;
+    margin: 0;
+    padding: 0 3rem;
+    text-align: center;
+   
+  
+}
+#a {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family:  sans-serif;
+    
+    color: rgb(27, 14, 79);
+
+}
+#b {
+    text-align: center;
+    font-size: 1.7rem;
+    font-family:  sans-serif;
+    line-height: 50px;
+    color: rgb(216, 123, 17);
+    position: relative;
+    right: 18px;
+    top: 20px;
+} 
+.sport3{
+    padding: 0;
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(76, 55, 55);
+    
+    
+}
+.sport4 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   padding: 6rem;
+   text-align: left;
+   
+}
+ ul {
+    list-style: none;
+    text-align: center;
+    color: beige;
+}
+.sport4 ul li:first-child {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    border: 1.5px solid rgb(199, 193, 193);
+    margin-bottom: 1rem;
+
+}
+li {
+    border-bottom: 1px solid transparent;
+    
+}
+li:hover {
+    border-bottom: 1px solid wheat;
+}
+#c
+{
+    height: 80px;
+    background-color: rgb(180, 189, 140);
+    font-size: 1.7rem;
+    text-align: center;
+    
+
+}
